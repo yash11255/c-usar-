@@ -1,0 +1,35 @@
+
+
+using namespace std;
+
+// void isEven(int n) {
+
+// 	if(n%2 == 0) {
+// 		 printf(" is even");
+// 	} else {
+// 		printf(" is odd");
+// 	}
+
+// 	return; // optional
+
+// }
+
+void isEven(int n) {
+
+	if(n%2 == 0) {
+		printf(" is even");
+		return; // mandatory
+	} 
+
+	printf(" is odd");
+	return; // optional
+
+}
+
+int main() {
+
+	isEven(5);
+	isEven(4);
+	
+	return 0;
+}
