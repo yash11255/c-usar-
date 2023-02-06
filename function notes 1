@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+
+
+void greet() {
+	printf("I am inside the greet()");
+	return; // optional
+}
+
+int main() {
+
+	printf("I am inside the main() before calling greet()");
+
+	greet();
+
+	printf("I am inside the main() after calling greet()");
+
+	return 0;
+}
+
+  
